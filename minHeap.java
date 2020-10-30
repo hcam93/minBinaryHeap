@@ -16,10 +16,6 @@ class minHeap<E> implements heapInterface<E> {
         this.comparator = compare;
     }
 
-    public void sortBy(String fieldName){
-
-    }
-
     public void add(Node<E> node){
                      
         if(size == data.length){
